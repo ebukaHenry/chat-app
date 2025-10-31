@@ -9,7 +9,7 @@ import Login from './components/Login'
 import Chat from './components/Chat'
 import User from './components/User'
 import AddUser from './components/AddUser'
-import Profile from './components/profile'
+import Profile from './components/Profile'
 import FooterNav from './components/FooterNav'
 
 function App() {
