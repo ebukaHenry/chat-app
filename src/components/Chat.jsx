@@ -12,7 +12,7 @@ export default function Chat() {
   const [socket, setSocket] = useState(null);
 
   useEffect(() => {
-    const newSocket = io("http://localhost:5000");
+    const newSocket = io("https://chat-app-backend-qz1e.onrender.com");
     setSocket(newSocket);
 
 

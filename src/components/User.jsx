@@ -12,7 +12,7 @@ export default function User() {
     const navigate = useNavigate();
 
     useEffect(() => {
-    const newSocket = io("http://localhost:5000");
+    const newSocket = io("https://chat-app-backend-qz1e.onrender.com");
     setSocket(newSocket);
 
     newSocket.emit("register", username);
